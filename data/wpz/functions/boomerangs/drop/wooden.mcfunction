@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"warped_fungus_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Wooden Boomerang","italic":false}',Lore:['{"text":"Right click to throw","color":"gray","italic":false}']},HideFlags:6,Unbreakable:1b,CustomModelData:70,boomerang:1b,wooden:1b}}}

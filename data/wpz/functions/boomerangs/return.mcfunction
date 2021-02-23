@@ -1,0 +1,1 @@
+execute as @s[nbt={ArmorItems:[{}, {}, {}, {tag:{wooden:1b}}]}] at @s anchored eyes run function wpz:boomerangs/return/base

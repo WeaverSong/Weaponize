@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:gold_scythe"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/scythes/gold_scythe"
+    }
+}
