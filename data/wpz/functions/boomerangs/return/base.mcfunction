@@ -14,7 +14,7 @@ execute at @s facing entity @e[tag=temp] feet run tp @s ^ ^ ^0.1
 execute at @s facing entity @e[tag=temp] feet run tp @s ^ ^ ^0.1
 execute at @s facing entity @e[tag=temp] feet run tp @s ^ ^ ^0.1
 
-execute positioned ~ ~ ~ as @e[tag=temp,distance=..1.5] run function wpz:recipes/boomerangs/wooden
+function wpz:boomerangs/return/give
 execute positioned ~ ~ ~ if entity @e[tag=temp,distance=..1.5] run kill @s
 
 
@@ -33,7 +33,7 @@ scoreboard players remove @s wpz-outtime 1
 
 
 #kill
-execute if score @s wpz-lifetime matches ..0 as @e[tag=temp] run function wpz:boomerangs/drop/wooden
+execute if score @s wpz-lifetime matches ..0 run function wpz:boomerangs/drop/base
 kill @s[scores={wpz-lifetime=..0}]
 
 
