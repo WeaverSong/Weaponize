@@ -25,3 +25,7 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{ne
 #north reaper
 execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{northreaperscythe:1b}}]}] at @s run function wpz:scythes/north_reaper_offhand
 execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{northreaperscythe:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/north_reaper_mainhand
+
+#bladesinger's kata
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{kata:1b}}]}] at @s run function wpz:scythes/bladesinger_kata_offhand
+execute as @a[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{kata:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/bladesinger_kata_mainhand
