@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:gold_mace"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/maces/gold"
+    }
+}
