@@ -4,6 +4,7 @@ execute as @s[nbt={Inventory:[{Slot:-106b,tag:{iron:1b}}]}] run function wpz:boo
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{gold:1b}}]}] run function wpz:boomerangs/throw/gold
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{diamond:1b}}]}] run function wpz:boomerangs/throw/diamond
 execute as @s[nbt={Inventory:[{Slot:-106b,tag:{netherite:1b}}]}] run function wpz:boomerangs/throw/netherite
+execute as @s[nbt={Inventory:[{Slot:-106b,tag:{lootrang:1b}}]}] run function wpz:boomerangs/throw/lootrang
 
 
 

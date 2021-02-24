@@ -14,7 +14,12 @@ execute at @s facing entity @e[tag=temp] feet run tp @s ^ ^ ^0.1
 execute at @s facing entity @e[tag=temp] feet run tp @s ^ ^ ^0.1
 execute at @s facing entity @e[tag=temp] feet run tp @s ^ ^ ^0.1
 
-function wpz:boomerangs/return/give
+tag @s add temp
+execute positioned ~ ~1.6 ~ as @e[type=item,tag=nabbed] if score @s wpz-id = @e[type=armor_stand,limit=1,sort=nearest] wpz-id run tp @s ~ ~ ~
+execute as @e[type=item,tag=nabbed] if score @s wpz-id = @e[type=armor_stand,limit=1,sort=nearest] wpz-id run data modify entity @s PickupDelay set value 2
+tag @s remove temp
+
+execute as @e[tag=temp,distance=..1.5] run function wpz:recipes/boomerangs/lootrang
 execute positioned ~ ~ ~ if entity @e[tag=temp,distance=..1.5] run kill @s
 
 

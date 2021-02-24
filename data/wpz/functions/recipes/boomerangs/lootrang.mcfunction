@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick{display:{Name:'{"text":"Loot-a-rang","color":"green","italic":false}',Lore:['{"text":"Right click to throw","color":"gray","italic":false}','{"text":"4 Attack Damage","color":"dark_green","italic":false}']},HideFlags:6,Unbreakable:1b,CustomModelData:71,boomerang:1b,lootrang:1b} 1

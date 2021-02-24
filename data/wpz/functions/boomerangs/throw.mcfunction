@@ -4,6 +4,7 @@ execute as @s[nbt={SelectedItem:{tag:{iron:1b}}}] at @s run function wpz:boomera
 execute as @s[nbt={SelectedItem:{tag:{gold:1b}}}] at @s run function wpz:boomerangs/throw/gold
 execute as @s[nbt={SelectedItem:{tag:{diamond:1b}}}] at @s run function wpz:boomerangs/throw/diamond
 execute as @s[nbt={SelectedItem:{tag:{netherite:1b}}}] at @s run function wpz:boomerangs/throw/netherite
+execute as @s[nbt={SelectedItem:{tag:{lootrang:1b}}}] at @s run function wpz:boomerangs/throw/lootrang
 
 
 
