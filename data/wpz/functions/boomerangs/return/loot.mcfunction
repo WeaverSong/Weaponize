@@ -30,7 +30,7 @@ scoreboard players remove @s wpz-lifetime 1
 execute store result score #dummy wpz-damage run scoreboard players get @s wpz-damage
 tag @s add temp
 execute positioned ~ ~1 ~ if score @s wpz-outtime matches ..-2 as @e[type=!item_frame,type=!leash_knot,type=!armor_stand,type=!item,distance=..1] unless score @s wpz-id = @e[type=armor_stand,tag=temp,limit=1,sort=nearest] wpz-id as @e[type=armor_stand,tag=temp] run tag @s add return
-execute positioned ~ ~1 ~ if score @s wpz-outtime matches ..-2 as @e[type=!item_frame,type=!leash_knot,type=!armor_stand,type=!item,distance=..1] unless score @s wpz-id = @e[type=armor_stand,tag=temp,limit=1,sort=nearest] wpz-id run function wpz:damage/damage
+execute positioned ~ ~1 ~ if score @s wpz-outtime matches ..-2 as @e[type=!item_frame,type=!leash_knot,type=!armor_stand,type=!item,distance=..1] unless score @s wpz-id = @e[type=armor_stand,tag=temp,limit=1,sort=nearest] wpz-id run scoreboard players operation @s util.damage = #dummy wpz-damage
 tag @s remove temp
 
 

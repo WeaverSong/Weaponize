@@ -1,0 +1,1 @@
+execute as @s[tag=shadeguard] run function wpz:bosses/shadeguard/tick

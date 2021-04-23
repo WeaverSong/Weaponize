@@ -1,11 +1,3 @@
-#finishes
-execute as @a[tag=finish_damage] at @s run function wpz:damage/finish_playerdamage
-execute as @e[type=!player,tag=finish_damage] at @s run function wpz:damage/finish_entitydamage
-
-#damageme test tag - damages tagged entity
-execute as @e[tag=wpz-damageme] at @s run function wpz:damage/damage
-tag @e remove wpz-damageme
-
 #pushme test tag
 execute as @e[tag=wpz-push-me] run function wpz:damage/knockback_entity_delayed
 
@@ -32,3 +24,6 @@ execute as @e[tag=!wpz-init] at @s run function wpz:init
 
 #iframes
 scoreboard players remove @e[scores={wpz-iframes=1..}] wpz-iframes 1
+
+#bosses
+execute as @e[type=slime,tag=boss] at @s run function wpz:bosses/tickcheck
