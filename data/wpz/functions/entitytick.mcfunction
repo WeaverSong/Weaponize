@@ -10,8 +10,7 @@ execute as @s[type=player,scores={wpz-cooldown=11}] run function wpz:scythes/sto
 execute as @s[type=player,scores={wpz-cooldown=0}] run function wpz:scythes/stopspinning
 
 #boomerang commands
-execute as @s[type=player,scores={fungus=1..},nbt={SelectedItem:{tag:{boomerang:1b}}}] at @s run function wpz:boomerangs/throw
-execute as @s[type=player,scores={fungus=1..},nbt={Inventory:[{Slot:-106b,tag:{boomerang:1b}}]}] at @s run function wpz:boomerangs/throw_offhand
+execute as @s[type=player,scores={fungus=1..},predicate=wpz:boomerangs/holding/any] at @s run function wpz:boomerangs/throw
 execute as @s[tag=boomerang,tag=!return] at @s run function wpz:boomerangs/fly
 execute as @s[tag=boomerang,tag=return] at @s run function wpz:boomerangs/return
 

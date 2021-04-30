@@ -1,0 +1,15 @@
+[
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:boomerangs/gold/offhand"
+        },
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:boomerangs/gold/mainhand"
+        }
+      ]
+    }
+  ]

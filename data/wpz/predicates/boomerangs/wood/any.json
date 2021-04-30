@@ -1,0 +1,15 @@
+[
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:boomerangs/wood/offhand"
+        },
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:boomerangs/wood/mainhand"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,15 @@
+[
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:boomerangs/holding/offhand"
+        },
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:boomerangs/holding/mainhand"
+        }
+      ]
+    }
+  ]
