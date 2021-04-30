@@ -35,11 +35,10 @@ scoreboard objectives add wpz-stored-id dummy
 #immunity frames
 scoreboard objectives add wpz-iframes dummy
 
-#bosses
-scoreboard objectives add wpz-boss-phase dummy
-scoreboard objectives add wpz-boss-timer dummy
-scoreboard objectives add wpz-boss-attack dummy
-scoreboard objectives add wpz-boss-temp dummy
+#engine stuffs
+scoreboard objectives add wpz-phase dummy
+scoreboard objectives add wpz-timer dummy
+scoreboard objectives add wpz-temp dummy
 
 #placing
 scoreboard objectives add wpz-frameplace minecraft.used:minecraft.item_frame

@@ -1,4 +1,4 @@
-scoreboard players remove @s[scores={wpz-boss-timer=1..}] wpz-boss-timer 1
+scoreboard players remove @s[scores={wpz-timer=1..}] wpz-timer 1
 
 
 

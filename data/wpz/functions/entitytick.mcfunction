@@ -21,9 +21,6 @@ execute as @s[type=armor_stand,tag=Ballista] at @s run function wpz:engines/ball
 execute as @s[type=armor_stand,tag=BallistaShot] at @s run function wpz:engines/ballista/shottick
 execute as @s[type=arrow,tag=BallistaShot,nbt={inGround:1b}] at @s run function wpz:engines/ballista/shotkill
 
-#bosses
-execute as @s[type=slime,tag=boss] at @s run function wpz:bosses/tickcheck
-
 #resets
 scoreboard players remove @s[type=player,scores={wpz-cooldown=1..}] wpz-cooldown 1
 scoreboard players reset @s[type=player] fungus
