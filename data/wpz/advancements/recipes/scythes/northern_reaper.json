@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:scythes/north_reaper"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/scythes/north_reaper"
+    }
+}

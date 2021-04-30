@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:scythes/diamond"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/scythes/diamond"
+    }
+}

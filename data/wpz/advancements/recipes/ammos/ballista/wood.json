@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:ammos/ballista/wood"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/ammos/ballista/wood"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:maces/stone"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/maces/stone"
+    }
+}

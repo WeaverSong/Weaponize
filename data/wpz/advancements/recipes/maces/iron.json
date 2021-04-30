@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:maces/iron"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/maces/iron"
+    }
+}

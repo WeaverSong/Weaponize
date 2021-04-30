@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:boomerangs/diamond"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/boomerangs/diamond"
+    }
+}
