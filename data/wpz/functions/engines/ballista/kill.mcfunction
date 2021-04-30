@@ -1,0 +1,3 @@
+kill @e[type=item,nbt={Item:{id:"minecraft:item_frame",tag:{CustomModelData:1}}}]
+summon item ~ ~ ~ {PickupDelay:40,Item:{id:"minecraft:item_frame",Count:1b,tag:{display:{Name:'{"text":"Ballista","color":"yellow","italic":false}'},CustomModelData:2,Ballista:1b,EntityTag:{Item:{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:1}},ItemRotation:2b,Invulnerable:0b,Invisible:1b,Fixed:0b}}}}
+kill @s

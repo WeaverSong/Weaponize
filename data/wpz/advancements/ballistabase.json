@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:ballistabase"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/engines/ballista/base"
+    }
+}

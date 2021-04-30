@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W#",
+        "/#/",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:logs"
+        },
+        "/": {
+            "item": "minecraft:string"
+        },
+        "W": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

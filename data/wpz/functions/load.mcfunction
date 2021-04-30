@@ -40,3 +40,10 @@ scoreboard objectives add wpz-boss-phase dummy
 scoreboard objectives add wpz-boss-timer dummy
 scoreboard objectives add wpz-boss-attack dummy
 scoreboard objectives add wpz-boss-temp dummy
+
+#placing
+scoreboard objectives add wpz-frameplace minecraft.used:minecraft.item_frame
+
+
+
+scoreboard objectives add wpz-temp dummy
