@@ -5,7 +5,7 @@ execute as @s[tag=!wpz-init] at @s run function wpz:init
 execute as @s[tag=wpz-push-me] run function wpz:damage/knockback_entity_delayed
 
 #scythe commands
-execute as @s[type=player,scores={fungus=1..,wpz-cooldown=..0}] run function wpz:scythes/checkscythe
+execute as @s[type=player,scores={fungus=1..,wpz-cooldown=..0},predicate=wpz:scythes/valid/any] run function wpz:scythes/checkscythe
 execute as @s[type=player,scores={wpz-cooldown=11}] run function wpz:scythes/stopspinning
 execute as @s[type=player,scores={wpz-cooldown=0}] run function wpz:scythes/stopspinning
 

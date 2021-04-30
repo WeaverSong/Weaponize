@@ -1,31 +1,23 @@
 #wooden
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{woodenscythe:1b}}]}] at @s run function wpz:scythes/wooden_offhand
-execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{woodenscythe:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/wooden_mainhand
+execute as @s[predicate=wpz:scythes/type/wood/any] at @s run function wpz:scythes/wood
 
 #stone
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{stonescythe:1b}}]}] at @s run function wpz:scythes/stone_offhand
-execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{stonescythe:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/stone_mainhand
+execute as @s[predicate=wpz:scythes/type/stone/any] at @s run function wpz:scythes/stone
 
 #iron
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{ironscythe:1b}}]}] at @s run function wpz:scythes/iron_offhand
-execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{ironscythe:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/iron_mainhand
+execute as @s[predicate=wpz:scythes/type/iron/any] at @s run function wpz:scythes/iron
 
 #gold
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{goldscythe:1b}}]}] at @s run function wpz:scythes/gold_offhand
-execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{goldscythe:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/gold_mainhand
+execute as @s[predicate=wpz:scythes/type/gold/any] at @s run function wpz:scythes/gold
 
 #diamond
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{diamondscythe:1b}}]}] at @s run function wpz:scythes/diamond_offhand
-execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{diamondscythe:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/diamond_mainhand
+execute as @s[predicate=wpz:scythes/type/diamond/any] at @s run function wpz:scythes/diamond
 
 #netherite
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{netheritescythe:1b}}]}] at @s run function wpz:scythes/netherite_offhand
-execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{netheritescythe:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/netherite_mainhand
+execute as @s[predicate=wpz:scythes/type/netherite/any] at @s run function wpz:scythes/netherite
 
 #north reaper
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{northreaperscythe:1b}}]}] at @s run function wpz:scythes/north_reaper_offhand
-execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{northreaperscythe:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/north_reaper_mainhand
+execute as @s[predicate=wpz:scythes/type/northernreaper/any] at @s run function wpz:scythes/northernreaper
 
 #bladesinger's kata
-execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:warped_fungus_on_a_stick",tag:{kata:1b}}]}] at @s run function wpz:scythes/bladesinger_kata_offhand
-execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick",tag:{kata:1b}}}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield"}]}] at @s run function wpz:scythes/bladesinger_kata_mainhand
+execute as @s[predicate=wpz:scythes/type/kata/any] at @s run function wpz:scythes/kata
