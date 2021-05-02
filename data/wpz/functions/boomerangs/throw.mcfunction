@@ -15,5 +15,5 @@ execute as @s[predicate=wpz:boomerangs/lootrang/any] at @s run function wpz:boom
 
 
 
-replaceitem entity @s[predicate=wpz:boomerangs/holding/offhand] weapon.offhand air
-replaceitem entity @s[predicate=wpz:boomerangs/holding/mainhand] weapon.mainhand air
+item entity @s[predicate=wpz:boomerangs/holding/offhand] weapon.offhand replace air
+item entity @s[predicate=wpz:boomerangs/holding/mainhand] weapon.mainhand replace air

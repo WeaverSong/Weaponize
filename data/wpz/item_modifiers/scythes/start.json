@@ -1,0 +1,86 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:11}",
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:scythes/type/wood/any"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:21}",
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:scythes/type/stone/any"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:31}",
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:scythes/type/iron/any"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:41}",
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:scythes/type/gold/any"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:51}",
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:scythes/type/diamond/any"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:61}",
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:scythes/type/netherite/any"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:2}",
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:scythes/type/northernreaper/any"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:4}",
+      "conditions": [
+        {
+          "condition": "minecraft:reference",
+          "name": "wpz:scythes/type/kata/any"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{spinning:1b}"
+    }
+  ]

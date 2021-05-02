@@ -21,3 +21,6 @@ execute as @s[predicate=wpz:scythes/type/northernreaper/any] at @s run function 
 
 #bladesinger's kata
 execute as @s[predicate=wpz:scythes/type/kata/any] at @s run function wpz:scythes/kata
+
+item entity @s[predicate=wpz:scythes/valid/mainhand] weapon.mainhand modify wpz:scythes/start
+item entity @s[predicate=wpz:scythes/valid/offhand] weapon.offhand modify wpz:scythes/start
