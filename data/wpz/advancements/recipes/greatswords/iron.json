@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:greatswords/iron"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/greatswords/iron"
+    }
+}

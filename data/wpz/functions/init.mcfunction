@@ -13,6 +13,7 @@ data modify entity @s[type=wither_skeleton] Health set value 12
 #playerids
 execute if entity @s[type=player] run scoreboard players add #dummy wpz-id 1
 execute if entity @s[type=player] store result score @s wpz-id run scoreboard players get #dummy wpz-id
+
 #cooldowns
 scoreboard players set @s wpz-cooldown 0
 

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:greatswords/gold"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/greatswords/gold"
+    }
+}
