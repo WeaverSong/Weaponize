@@ -15,8 +15,8 @@ scoreboard players reset @s fungus
 scoreboard players reset @s wpz-frameplace
 
 #greatsword handling
-attribute @s[predicate=wpz:greatswords/not_invalid] generic.attack_speed modifier remove f9e61bfe-3354-4278-bedc-2f7a44c6f435
-attribute @s[predicate=wpz:greatswords/not_invalid] generic.attack_damage modifier remove f9e61bfe-3354-4278-bedc-2f7a44c6f435
-execute if predicate wpz:greatswords/has unless predicate wpz:greatswords/hasvalid run attribute @s generic.attack_speed modifier add f9e61bfe-3354-4278-bedc-2f7a44c6f435 "Disable Use" -100 add
-execute if predicate wpz:greatswords/has unless predicate wpz:greatswords/hasvalid run attribute @s generic.attack_damage modifier add f9e61bfe-3354-4278-bedc-2f7a44c6f435 "Disable Use" -100 add
+attribute @s[predicate=wpz:twohanded/not_invalid] generic.attack_speed modifier remove f9e61bfe-3354-4278-bedc-2f7a44c6f435
+attribute @s[predicate=wpz:twohanded/not_invalid] generic.attack_damage modifier remove f9e61bfe-3354-4278-bedc-2f7a44c6f435
+execute if predicate wpz:twohanded/has unless predicate wpz:twohanded/hasvalid run attribute @s generic.attack_speed modifier add f9e61bfe-3354-4278-bedc-2f7a44c6f435 "Disable Use" -100 add
+execute if predicate wpz:twohanded/has unless predicate wpz:twohanded/hasvalid run attribute @s generic.attack_damage modifier add f9e61bfe-3354-4278-bedc-2f7a44c6f435 "Disable Use" -100 add
 
