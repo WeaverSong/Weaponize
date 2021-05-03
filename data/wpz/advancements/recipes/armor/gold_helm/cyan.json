@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:armor/gold_helm/cyan"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/armor/gold_helm/cyan"
+    }
+}

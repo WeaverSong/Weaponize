@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "golden_helmet"
+        },
+        {
+            "item": "feather"
+        },
+        {
+            "item":"gold_ingot"
+        },
+        {
+            "item":"gold_ingot"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
