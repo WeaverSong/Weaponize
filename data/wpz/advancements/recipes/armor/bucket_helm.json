@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:armor/bucket_helm"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/armor/bucket_helm"
+    }
+}

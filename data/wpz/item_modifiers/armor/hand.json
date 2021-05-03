@@ -1,0 +1,40 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{wpz-armor:1b}"
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:wpz"
+    },
+    "ops": [
+      {
+        "source": "Armor.Enchantments",
+        "target": "Enchantments",
+        "op": "replace"
+      },
+      {
+        "source": "Armor.AttributeModifiers",
+        "target": "AttributeModifiers",
+        "op": "replace"
+      },
+      {
+        "source": "Armor.tags",
+        "target": "tags",
+        "op": "replace"
+      },
+      {
+        "source": "Armor.CustomModelData",
+        "target": "CustomModelData",
+        "op": "replace"
+      },
+      {
+        "source": "Armor.display",
+        "target": "display",
+        "op": "replace"
+      }
+    ]
+  }
+]

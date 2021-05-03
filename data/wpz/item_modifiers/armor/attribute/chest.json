@@ -1,0 +1,123 @@
+[
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "name": "",
+          "amount": 0.2,
+          "operation": "addition",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "",
+          "amount": 3,
+          "operation": "addition",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "",
+          "amount": 8,
+          "operation": "addition",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "",
+          "amount": -0.1,
+          "operation": "multiply_total",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "item": "minecraft:netherite_chestplate"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "name": "",
+          "amount": 2,
+          "operation": "addition",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "",
+          "amount": 8,
+          "operation": "addition",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "",
+          "amount": -0.05,
+          "operation": "multiply_total",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "item": "minecraft:diamond_chestplate"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.armor",
+          "name": "",
+          "amount": 6,
+          "operation": "addition",
+          "slot": "chest"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "",
+          "amount": -0.05,
+          "operation": "multiply_total",
+          "slot": "chest"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "chest": {
+                "item": "minecraft:iron_chestplate"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{handled:1b}"
+    }
+  ]

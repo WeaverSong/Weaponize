@@ -20,3 +20,6 @@ attribute @s[predicate=wpz:twohanded/not_invalid] generic.attack_damage modifier
 execute if predicate wpz:twohanded/has unless predicate wpz:twohanded/hasvalid run attribute @s generic.attack_speed modifier add f9e61bfe-3354-4278-bedc-2f7a44c6f435 "Disable Use" -100 add
 execute if predicate wpz:twohanded/has unless predicate wpz:twohanded/hasvalid run attribute @s generic.attack_damage modifier add f9e61bfe-3354-4278-bedc-2f7a44c6f435 "Disable Use" -100 add
 
+#helmet replacing
+execute if predicate wpz:armor/head/true/hasany run function wpz:armors/replacehead
+execute if predicate wpz:armor/head/model/holding/hasany run function wpz:armors/replacehand

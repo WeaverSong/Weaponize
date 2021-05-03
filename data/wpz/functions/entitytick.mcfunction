@@ -17,3 +17,9 @@ execute as @s[type=arrow,tag=BallistaShot,nbt={inGround:1b}] at @s run function 
 
 #iframes
 scoreboard players remove @s[scores={wpz-iframes=1..}] wpz-iframes 1
+
+#armor
+execute if predicate wpz:armor/has/feet run item entity @s armor.feet modify wpz:armor/attribute/feet
+execute if predicate wpz:armor/has/legs run item entity @s armor.legs modify wpz:armor/attribute/legs
+execute if predicate wpz:armor/has/chest run item entity @s armor.chest modify wpz:armor/attribute/chest
+execute if predicate wpz:armor/has/head run item entity @s armor.head modify wpz:armor/attribute/head

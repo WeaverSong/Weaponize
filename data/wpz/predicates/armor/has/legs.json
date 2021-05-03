@@ -1,0 +1,30 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "legs": {
+            "nbt": "{handled:1b}"
+          }
+        }
+      }
+    }
+  },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "legs": {
+              "item": "minecraft:air"
+            }
+          }
+        }
+      }
+    }
+  ]

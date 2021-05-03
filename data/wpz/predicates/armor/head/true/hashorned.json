@@ -1,0 +1,17 @@
+[
+    {
+      "condition": "minecraft:reference",
+      "name": "wpz:armor/head/true/hasany"
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "nbt": "{tags:{horned_leather_helm:1b}}"
+          }
+        }
+      }
+    }
+  ]

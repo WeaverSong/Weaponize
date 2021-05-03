@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:armor/horned_leather_helm"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/armor/horned_leather_helm"
+    }
+}
