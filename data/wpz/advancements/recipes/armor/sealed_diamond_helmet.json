@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:armor/sealed_diamond_helmet"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/armor/sealed_diamond_helmet"
+    }
+}
