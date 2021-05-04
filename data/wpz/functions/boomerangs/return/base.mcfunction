@@ -1,3 +1,7 @@
+#kill
+execute if score @s wpz-lifetime matches ..0 run function wpz:boomerangs/drop/base
+kill @s[scores={wpz-lifetime=..0}]
+
 tag @s add temp
 execute as @a if score @s wpz-id = @e[type=armor_stand,tag=temp,limit=1] wpz-id run tag @s add temp
 tag @s remove temp
@@ -30,11 +34,6 @@ tag @s remove temp
 
 
 scoreboard players remove @s wpz-outtime 1
-
-
-#kill
-execute if score @s wpz-lifetime matches ..0 run function wpz:boomerangs/drop/base
-kill @s[scores={wpz-lifetime=..0}]
 
 
 tag @a remove temp

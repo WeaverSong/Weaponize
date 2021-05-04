@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:battleaxes/stone"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/battleaxes/stone"
+    }
+}
