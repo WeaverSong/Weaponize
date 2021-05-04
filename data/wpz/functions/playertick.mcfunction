@@ -3,6 +3,10 @@ execute as @s[scores={fungus=1..,wpz-cooldown=..0},predicate=wpz:scythes/valid/a
 execute as @s[scores={wpz-cooldown=11}] run function wpz:scythes/stopspinning
 execute as @s[scores={wpz-cooldown=0}] run function wpz:scythes/stopspinning
 
+#spear commands
+execute as @s[scores={fungus=1..,wpz-cooldown=..0},predicate=wpz:spears/any] at @s run function wpz:spears/stab
+execute as @s[scores={wpz-cooldown=23}] run function wpz:spears/stopstab
+
 #boomerangs
 execute as @s[scores={fungus=1..},predicate=wpz:boomerangs/holding/any] at @s run function wpz:boomerangs/throw
 

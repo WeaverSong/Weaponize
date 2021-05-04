@@ -3,11 +3,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "wpz:spears/stone"
+                "recipe": "wpz:spears/netherite"
             }
         }
     },
     "rewards": {
-        "function": "wpz:recipes/spears/stone"
+        "function": "wpz:recipes/spears/netherite"
     }
 }

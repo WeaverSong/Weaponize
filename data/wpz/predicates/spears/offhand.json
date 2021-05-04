@@ -1,0 +1,20 @@
+[
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:reference",
+        "name": "wpz:spears/mainhand"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "nbt": "{Spear:1b}"
+          }
+        }
+      }
+    }
+  ]
