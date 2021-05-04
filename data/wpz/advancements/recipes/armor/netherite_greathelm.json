@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:armor/netherite_greathelm"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/armor/netherite_greathelm"
+    }
+}
