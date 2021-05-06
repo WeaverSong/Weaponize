@@ -27,3 +27,9 @@ execute if predicate wpz:armor/has/feet run item entity @s armor.feet modify wpz
 execute if predicate wpz:armor/has/legs run item entity @s armor.legs modify wpz:armor/attribute/legs
 execute if predicate wpz:armor/has/chest run item entity @s armor.chest modify wpz:armor/attribute/chest
 execute if predicate wpz:armor/has/head run item entity @s armor.head modify wpz:armor/attribute/head
+
+#resets
+scoreboard players remove @s[scores={wpz-cooldown=1..}] wpz-cooldown 1
+
+#caltrops
+execute as @s[type=armor_stand,tag=Caltrop,scores={wpz-cooldown=0}] at @s if entity @e[type=!armor_stand,type=!area_effect_cloud,type=!marker,distance=..0.5] run function wpz:misc/caltrop

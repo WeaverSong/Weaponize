@@ -1,3 +1,6 @@
+#snowballs
+execute as @s[type=snowball,nbt={Item:{tag:{Caltrop:1b}}}] at @s run function wpz:snowballs/caltrop
+
 #skeleton
 attribute @s[type=skeleton] generic.max_health base set 5
 data modify entity @s[type=skeleton] Health set value 5

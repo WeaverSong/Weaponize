@@ -14,7 +14,6 @@ execute as @s[scores={fungus=1..},predicate=wpz:boomerangs/holding/any] at @s ru
 execute as @s[scores={wpz-frameplace=1..}] at @s run function wpz:engines/place
 
 #resets
-scoreboard players remove @s[scores={wpz-cooldown=1..}] wpz-cooldown 1
 scoreboard players reset @s fungus
 scoreboard players reset @s wpz-frameplace
 
@@ -23,4 +22,3 @@ attribute @s[predicate=wpz:twohanded/not_invalid] generic.attack_speed modifier 
 attribute @s[predicate=wpz:twohanded/not_invalid] generic.attack_damage modifier remove f9e61bfe-3354-4278-bedc-2f7a44c6f435
 execute if predicate wpz:twohanded/has unless predicate wpz:twohanded/hasvalid run attribute @s generic.attack_speed modifier add f9e61bfe-3354-4278-bedc-2f7a44c6f435 "Disable Use" -100 add
 execute if predicate wpz:twohanded/has unless predicate wpz:twohanded/hasvalid run attribute @s generic.attack_damage modifier add f9e61bfe-3354-4278-bedc-2f7a44c6f435 "Disable Use" -100 add
-
