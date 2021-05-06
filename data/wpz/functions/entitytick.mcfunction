@@ -27,6 +27,8 @@ execute if predicate wpz:armor/has/feet run item entity @s armor.feet modify wpz
 execute if predicate wpz:armor/has/legs run item entity @s armor.legs modify wpz:armor/attribute/legs
 execute if predicate wpz:armor/has/chest run item entity @s armor.chest modify wpz:armor/attribute/chest
 execute if predicate wpz:armor/has/head run item entity @s armor.head modify wpz:armor/attribute/head
+execute if predicate wpz:armor/has/shield/mainhand run item entity @s weapon.mainhand modify wpz:armor/attribute/shield
+execute if predicate wpz:armor/has/shield/offhand run item entity @s weapon.offhand modify wpz:armor/attribute/shield
 
 #resets
 scoreboard players remove @s[scores={wpz-cooldown=1..}] wpz-cooldown 1

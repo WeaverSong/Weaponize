@@ -1,0 +1,25 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{handled:1b}"
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "",
+        "amount": 1,
+        "operation": "addition",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "name": "",
+        "amount": 1,
+        "operation": "addition",
+        "slot": "offhand"
+      }
+    ]
+  }
+]
