@@ -15,3 +15,4 @@ execute store result entity @s Motion[2] double 0.0025 run scoreboard players op
 tag @s remove newspawn
 
 scoreboard players set @s wpz-cooldown 20
+scoreboard players set @s wpz-lifetime 1200
