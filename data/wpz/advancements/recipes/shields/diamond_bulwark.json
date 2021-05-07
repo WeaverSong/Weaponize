@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:shields/diamond_bulwark"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/shields/diamond_bulwark"
+    }
+}

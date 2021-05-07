@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:shields/wood_bulwark"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/shields/wood_bulwark"
+    }
+}
