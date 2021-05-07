@@ -37,3 +37,6 @@ scoreboard players remove @s[scores={wpz-lifetime=1..}] wpz-lifetime 1
 #caltrops
 execute as @s[type=armor_stand,tag=Caltrop,scores={wpz-cooldown=0}] at @s if entity @e[type=!armor_stand,type=!area_effect_cloud,type=!marker,distance=..0.5] run function wpz:misc/caltrop
 kill @s[type=armor_stand,tag=Caltrop,scores={wpz-lifetime=0}]
+
+#effect detection
+execute if predicate wpz:detect_by_effect run function wpz:effect/main

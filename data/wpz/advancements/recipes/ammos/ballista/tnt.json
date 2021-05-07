@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:ammos/ballista/tnt"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/ammos/ballista/tnt"
+    }
+}
