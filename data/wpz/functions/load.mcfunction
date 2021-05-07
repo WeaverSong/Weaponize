@@ -46,3 +46,7 @@ scoreboard objectives add wpz-frameplace minecraft.used:minecraft.item_frame
 
 
 scoreboard objectives add wpz-temp dummy
+
+#combo scoreboards
+scoreboard objectives add wpz-rap-combo dummy
+scoreboard objectives add wpz-rap-time dummy

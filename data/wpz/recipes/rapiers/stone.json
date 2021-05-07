@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        " I ",
+        "i/ "
+    ],
+    "key": {
+        "I": {
+            "tag": "wpz:cobble"
+        },
+        "i": {
+            "tag": "wpz:cobble"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

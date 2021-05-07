@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "wpz:rapiers/wood"
+            }
+        }
+    },
+    "rewards": {
+        "function": "wpz:recipes/rapiers/wood"
+    }
+}

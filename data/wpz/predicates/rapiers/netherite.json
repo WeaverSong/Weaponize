@@ -1,0 +1,23 @@
+[
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wpz-rap-combo": {
+          "min": 10,
+          "max": 1000
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "nbt": "{NetheriteRapier:1b}"
+          }
+        }
+      }
+    }
+  ]

@@ -1,0 +1,23 @@
+[
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "wpz-rap-combo": {
+          "min": 15,
+          "max": 1000
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "nbt": "{GoldRapier:1b}"
+          }
+        }
+      }
+    }
+  ]
